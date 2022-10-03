@@ -28,8 +28,8 @@
     "start:prod": "./node_modules/.bin/env-cmd -f ./environment/.env.prod npm react-scripts start",
     "build00": "react-scripts build",
     "build:dev": "./node_modules/.bin/env-cmd -f ./environment/.env.development react-scripts build",
-    "build:prod": "./node_modules/.bin/env-cmd -f ./environment/.env.production react-scripts build",
-    "test": "react-scripts test",
+    "build:prod": "node_modules/.bin/env-cmd -f environment/.env.production react-scripts build",
+    "test:prod": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
