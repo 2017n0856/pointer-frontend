@@ -2,7 +2,7 @@
   "name": "pointer-webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://2017n0856.github.io/pointer-frontend",
+  "homepage": "https://2017n0856.github.io",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
