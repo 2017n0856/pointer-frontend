@@ -2,6 +2,7 @@
   "name": "pointer-webapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://2017n0856.github.io/pointer-frontend",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,9 +21,12 @@
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.1",
     "react-scripts": "^2.1.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build:prod",
+    "deploy": "gh-pages -d build:prod",
     "start00": "react-scripts start",
     "start:dev": "node_modules/.bin/env-cmd -f environment/.env.dev react-scripts start",
     "start:prod": "node_modules/.bin/env-cmd -f environment/.env.prod npm react-scripts start",
